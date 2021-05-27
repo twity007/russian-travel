@@ -5,24 +5,22 @@
     width: 100%;
 }
 
-}
-
 @media screen and (max-width: 600px) {
 	.footer {
-		flex-direction: column;
+	  flex-direction: column;
 	}
 }
 @media screen and (max-width: 768px) {
 	.footer {
-    max-width: 768px;
-    margin: 0 auto;
-    justify-content: space-between;
+      max-width: 768px;
+      margin: 0 auto;
+     justify-content: space-between;
     }
 }
 
 @media screen and (max-width: 425px) {
 	.footer {
-		flex-direction: column;
-	    max-width: 425px;
+	  flex-direction: column;
+	  max-width: 425px;
 	}
 }

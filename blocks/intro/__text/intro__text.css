@@ -13,9 +13,11 @@
     min-width: 720px;
     max-height: 288px;
 }
+}
 
 @media screen and (max-width: 425px) {
   .intro__text {
     min-width: 288px;
     max-height: 520px;
   }
+}

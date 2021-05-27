@@ -3,18 +3,17 @@
 	flex-direction: column;
     position: relative;
 	align-items: center;
-	background-size: cover;
 	background-image: url(../../../images/__background.png);
 	background-size: 100%;
     background-position: center;
-     min-height: 740px;
+    min-height: 740px;
     max-width: 1184px;
     background-repeat: no-repeat;
     z-index: 1;
 }
 
 .cover__item::before {
-    content: ''; 
+    content: '';
 	opacity: 0.3;
     transition: background-image 0.5s ease;
     position: absolute;
@@ -24,7 +23,6 @@
     bottom: 0;
     z-index: -1;
     background-color: #2A2C2F;
-    transition: opacity 350ms ease;
 }
 
 .cover__item:hover::before {
