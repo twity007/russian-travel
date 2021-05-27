@@ -1,9 +1,6 @@
-.header__lang-link_en {
+.header__link {
   width: 30px;
   height: 28px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
@@ -13,7 +10,7 @@
 }
 
 @media screen and (max-width: 425px) {
-	.header__lang-link_en {
+	.header__link {
       height: 42px;
       max-width: 62px;
       margin-top: 30px;
