@@ -1,0 +1,35 @@
+.footer__list {
+	list-style-type: none;
+	flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    min-width: 513px;
+}
+
+@media screen and (max-width: 600px) {
+	.footer__list {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.footer__list {
+		max-width: 309px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer__list {
+		max-width: 309px;
+		margin-bottom: 24px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.footer__list {
+		min-width: 158px;
+		min-height: 224px;
+		padding-left: 16px;
+	}
+}

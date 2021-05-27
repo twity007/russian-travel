@@ -1,0 +1,24 @@
+.header__lang-link_en {
+  width: 30px;
+  height: 28px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 46px;
+  margin-right: 48px;
+}
+
+@media screen and (max-width: 425px) {
+	.header__lang-link_en {
+      height: 42px;
+      max-width: 62px;
+      margin-top: 30px;
+      font-size: 18px;
+      line-height: 20px;
+      margin-right: 16px;
+	}
+}
