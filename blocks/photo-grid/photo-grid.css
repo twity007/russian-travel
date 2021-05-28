@@ -1,11 +1,23 @@
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-	margin: 48px;
-	max-width: 1184px;
+	  margin: 48px;
+	  max-width: 1184px;
     gap: 16px;
 }
 
+@media screen and (max-width: 1440px) {
+  .photo-grid {
+    margin: auto;
+    max-width: 1184px;
+}
+}
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    margin: auto;
+    max-width: 928px;
+}
+}
 
 @media screen and (max-width: 768px) {
   .photo-grid {
