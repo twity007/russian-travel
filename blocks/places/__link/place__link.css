@@ -2,3 +2,6 @@
 	text-decoration: underline;
 	color: white;
 }
+.place__link:hover {
+	opacity: 0.8;
+}

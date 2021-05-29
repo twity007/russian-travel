@@ -8,6 +8,11 @@
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 2560px) {
+    .lead__image {
+      margin: 64px auto 0;
+    }
+}
 @media screen and (max-width: 1440px) {
     .lead__image {
       margin: 64px auto 0;
