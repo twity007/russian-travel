@@ -1,5 +1,5 @@
 .lead__image {
-	  background-image:url(../../../images/lead__image.png);
+    background-image: url(../../../images/lead__image.png);
     min-height: 615px;
     margin: 64px 148px auto;
     max-width: 984px;
@@ -10,30 +10,31 @@
 
 @media screen and (max-width: 2560px) {
     .lead__image {
-      margin: 64px auto 0;
+        margin: 64px auto 0;
     }
 }
 @media screen and (max-width: 1440px) {
     .lead__image {
-      margin: 64px auto 0;
+        margin: 64px auto 0;
     }
 }
 @media screen and (max-width: 1024px) {
     .lead__image {
-       margin: auto 48px; 
+        margin: auto 48px;
+        min-height: 580px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__image {
-       margin: 0 auto;
-       min-height: 418px;
+        margin: 0 auto;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 550px) {
     .lead__image {
-       margin: 0 auto;
-       min-height: 200px;
+        margin: 0 auto;
+        min-height: 200px;
     }
 }

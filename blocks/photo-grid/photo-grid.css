@@ -1,69 +1,69 @@
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-	  margin: 48px;
-	  max-width: 1184px;
+    margin: 48px;
+    max-width: 1184px;
     gap: 16px;
 }
 
 @media screen and (max-width: 2560px) {
-  .photo-grid {
-    margin: auto;
-    max-width: 1184px;
-}
+    .photo-grid {
+        margin: auto;
+        max-width: 1184px;
+    }
 }
 @media screen and (max-width: 1440px) {
-  .photo-grid {
-    margin: auto;
-    max-width: 1184px;
-}
+    .photo-grid {
+        margin: auto;
+        max-width: 1184px;
+    }
 }
 @media screen and (max-width: 1200px) {
-  .photo-grid {
-    margin: auto;
-    max-width: 928px;
-}
+    .photo-grid {
+        margin: auto;
+        max-width: 928px;
+    }
 }
 @media screen and (max-width: 1024px) {
-  .photo-grid {
-    margin: auto;
-    max-width: 928px;
-}
+    .photo-grid {
+        margin: auto;
+        max-width: 928px;
+    }
 }
 @media screen and (max-width: 900px) {
-  .photo-grid {
-    margin: auto;
-    max-width: 800px;
-}
+    .photo-grid {
+        margin: auto;
+        max-width: 800px;
+    }
 }
 @media screen and (max-width: 875px) {
-  .photo-grid {
-    margin: auto;
-    max-width: 720px;
-}
+    .photo-grid {
+        margin: auto;
+        max-width: 720px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .photo-grid {
-    margin: 24px;
-    max-width: 720px;
-}
+    .photo-grid {
+        margin: 24px;
+        max-width: 720px;
+    }
 }
 @media screen and (max-width: 720px) {
-  .photo-grid {
-    margin: 24px;
-    max-width: 720px;
-}
+    .photo-grid {
+        margin: 24px;
+        max-width: 720px;
+    }
 }
 @media screen and (max-width: 600px) {
-  .photo-grid {
-    margin: 24px;
-    max-width: 500px;
-}
+    .photo-grid {
+        margin: 24px;
+        max-width: 500px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-  .photo-grid {
-    margin: auto 16px;
-}
+    .photo-grid {
+        margin: auto 16px;
+    }
 }

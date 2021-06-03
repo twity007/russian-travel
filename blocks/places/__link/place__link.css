@@ -1,7 +1,18 @@
 .place__link {
 	text-decoration: underline;
 	color: white;
+	font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
 }
 .place__link:hover {
 	opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+      margin-left: 8px;
+}
 }

@@ -1,4 +1,23 @@
 .footer__link {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+    .footer__list {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer__list {
+        font-size: 24px;
+        line-height: 24px;
+    }
 }
