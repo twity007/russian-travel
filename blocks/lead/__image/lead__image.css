@@ -6,13 +6,10 @@
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 2560px) {
-    .lead__image {
-        margin: 64px auto 0;
-    }
-}
+
 @media screen and (max-width: 1440px) {
     .lead__image {
         margin: 64px auto 0;
@@ -34,7 +31,6 @@
 
 @media screen and (max-width: 550px) {
     .lead__image {
-        margin: 0 auto;
         min-height: 200px;
     }
 }
