@@ -30,10 +30,3 @@
         margin: 0 auto;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .place {
-        grid-template-columns: 320px;
-        margin: 0;
-    }
-}

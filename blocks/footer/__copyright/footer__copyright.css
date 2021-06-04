@@ -1,9 +1,13 @@
 .footer__copyright {
+    font-family: Inter;
     padding-right: 24px;
     flex-direction: row;
     align-self: flex-end;
     text-align: end;
     margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
 }
 
 @media screen and (max-width: 425px) {
@@ -12,13 +16,7 @@
         align-self: flex-start;
         margin-left: 16px;
         margin-top: 48px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .footer__copyright {
-        padding: 0;
-        align-self: flex-start;
-        margin-left: 16px;
+        font-size: 14px;
+        line-height: 14px;
     }
 }

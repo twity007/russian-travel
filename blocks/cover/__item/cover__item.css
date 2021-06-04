@@ -1,5 +1,6 @@
 .cover__item {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     position: relative;
     align-items: center;
@@ -32,7 +33,7 @@
 
 @media screen and (min-width: 1290px) {
     .cover__item {
-        margin: auto;
+        margin: 0 auto;
     }
 }
 
@@ -46,6 +47,12 @@
 @media screen and (max-width: 768px) {
     .cover__item {
         min-height: 480px;
+        margin: 90px 0 88px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .cover__item {
+        margin: 0;
     }
 }
 
@@ -54,7 +61,7 @@
         max-width: 320px;
         font-size: 32px;
         line-height: 35px;
-        margin: 0;
+        margin: 0 auto;
         min-height: 200px;
     }
 }

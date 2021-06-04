@@ -3,6 +3,7 @@
     color: white;
     font-style: normal;
     font-weight: normal;
+    margin: 32px 0;
 }
 
 .footer__link:hover {
@@ -10,13 +11,18 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .footer__list {
+    .footer__link {
         font-size: 18px;
         line-height: 18px;
     }
 }
+@media screen and (max-width: 700px) {
+    .footer__link {
+        margin: 32px 0;
+    }
+}
 @media screen and (max-width: 320px) {
-    .footer__list {
+    .footer__link {
         font-size: 24px;
         line-height: 24px;
     }

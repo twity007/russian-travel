@@ -8,4 +8,4 @@
 В проекте были применеы тенологии построения grid сетки, flexbox. Подключены шрифты, Также реализована адаптивность.
 Добавлены стили при наведении курсора.
 
-ссылка на проект: https://twity007.github.io/russian-travel/index.html
+ссылка на проект: https://github.com/twity007/russian-travel

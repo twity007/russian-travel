@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 500px) {
     .cover {
-        padding: 0;
+        margin: 20px auto;
     }
 }
 @media screen and (max-width: 320px) {

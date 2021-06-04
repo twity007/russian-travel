@@ -5,13 +5,8 @@
     line-height: 28px;
     text-align: right;
     color: #ffffff;
-    max-height: 20px;
 }
 
-.header__link:first-of-type {
-    color: #ffffff;
-    margin-right: 18px;
-}
 .header__link:last-of-type {
     text-decoration-line: none;
     color: #ffffff;
@@ -30,8 +25,6 @@
 
 @media screen and (max-width: 320px) {
     .header__link:last-of-type {
-        font-size: 18px;
-        line-height: 20px;
         margin-right: 16px;
     }
 }
