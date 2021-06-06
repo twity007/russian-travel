@@ -1,9 +1,8 @@
 .footer__list {
-    font-family: Inter;
+    font-family: "Inter", "Arial", sans-serif;
     list-style-type: none;
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -11,6 +10,11 @@
 @media screen and (max-width: 2560px) {
     .footer__list {
         min-width: 513px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .footer__list {
+        padding: 0;
     }
 }
 

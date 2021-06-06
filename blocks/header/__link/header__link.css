@@ -10,7 +10,6 @@
 .header__link:last-of-type {
     text-decoration-line: none;
     color: #ffffff;
-    margin-right: 30px;
 }
 .header__link:hover {
     opacity: 0.8;
@@ -20,11 +19,5 @@
     .header__link {
         font-size: 18px;
         line-height: 20px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .header__link:last-of-type {
-        margin-right: 16px;
     }
 }

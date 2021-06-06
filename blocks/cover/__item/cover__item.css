@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     z-index: 1;
     text-decoration: none;
+    justify-content: center;
 }
 
 .cover__item::before {
